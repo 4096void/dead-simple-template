@@ -1,0 +1,1 @@
+> Dead simple template: files change -> reload browser
