@@ -1,0 +1,23 @@
+{
+  "name": "Dead-simple-template",
+  "version": "1.0.0",
+  "description": "another simple template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run serve\" \"npm run watch\"",
+    "serve": "serve -l 8888",
+    "watch": "node watch.js"
+  },
+  "author": "thrilling_gem",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "chokidar": "^2.1.2",
+    "concurrently": "^4.1.0",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "serve": "^10.1.2"
+  }
+}
